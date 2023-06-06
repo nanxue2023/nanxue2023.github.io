@@ -458,14 +458,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    73
+                    895
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    1 Min
+                    5 Min
                 </div>
                 
 
@@ -483,19 +483,54 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+                <p>Welcome to <a href="https://nanxue2023.github.io/">Xue’s Blog</a>! This is my own blog for learning something intersting, including AI, wireless communications and so on. I’ll try to express myself with English so that I can improve my English writing skills for the reason that I’m not a native English speaker. I’m willing to receving your opinions and suggestions on my content and my language expression.</p>
+<h2 id="What-is-the-website"><a href="#What-is-the-website" class="headerlink" title="What is the website?"></a>What is the website?</h2><p>This is a blog for learning and communicating AI, wireless communications and anything interesting.</p>
+<h2 id="Why-I-create-the-blog"><a href="#Why-I-create-the-blog" class="headerlink" title="Why I create the blog?"></a>Why I create the blog?</h2><p>I’d like to record my study process and share my thoughts. On the one hand, I can better remember and understand what I’ve learned. On the other hand, I can talk with people who brouse the blog and we make progress together.</p>
+<h2 id="How-I-operate-the-blog"><a href="#How-I-operate-the-blog" class="headerlink" title="How I operate the blog?"></a>How I operate the blog?</h2><p>I will update articles irregularly. The articles are mainly composed of study notes, my thoughts and paper summary. Maybe there will be other topics but I don’t know at present.</p>
+<h2 id="The-First-Record"><a href="#The-First-Record" class="headerlink" title="The First Record"></a>The First Record</h2><p>For a front-end noob, I met some bugs and errors when I built the website. I shall record the building process and solutions for some bugs and errors. This part is only available in Win10 Environment.</p>
+<h3 id="Register-Github-Account-and-Create-a-New-Repository"><a href="#Register-Github-Account-and-Create-a-New-Repository" class="headerlink" title="Register Github Account and Create a New Repository"></a>Register Github Account and Create a New Repository</h3><p>If you are strange about building your own blog or website, it is simple and convenient for you to utilize Github Pages. The first thing you should do is to register a <a target="_blank" rel="noopener" href="https://github.com/">Github</a> account and then create a new repository.</p>
+<p>The repository name should be ‘username.github.io’, in which the username is your Github account username. Next the permission choose ‘Public’ instead of ‘Private’. Click the ‘Create repository’ button and you finish creating repository.</p>
+<h3 id="Download-and-Install-Git-and-Node-js"><a href="#Download-and-Install-Git-and-Node-js" class="headerlink" title="Download and Install Git and Node.js"></a>Download and Install Git and Node.js</h3><p>Download <a target="_blank" rel="noopener" href="https://git-scm.com/">Git</a> (click the blue Git and get access to Git official website).<br>Download <a target="_blank" rel="noopener" href="https://nodejs.org/en">Node.js</a> (click the blue Node.js and get access to Node.js official website)</p>
+<p>Git’s installation is simple. Just select customized installation folder or address as you want and click ‘next’.</p>
+<p>Node.js need some additional operations. After you finish installing Node.js, test whether the installation is successful or not. Open CMD and input </p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">node</span> <span class="token parameter variable">-v</span>
+$ <span class="token function">npm</span> <span class="token parameter variable">-v</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p>to check the version. If the CMD window return the version, you succeed in installation.</p>
+<p>Because when executing commands such as </p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">npm</span> <span class="token function">install</span> webpack <span class="token parameter variable">-g</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p> to install globally, the module will be installed in npm and npm_cache under the path of C:\Users\username\AppData\Roaming by default, which is inconvenient to manage and takes up space on the C drive.</p>
+<p>So configure a custom global module installation directory here, and create two new folders ‘<strong>node_global</strong>‘ and ‘<strong>node_cache</strong>‘ under the node.js installation directory.</p>
+<p>Then operate the next commands. (for example, your Node.js installation address is ‘<strong>D:\Program Files\nodejs</strong>‘)</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">npm</span> config <span class="token builtin class-name">set</span> prefix <span class="token string">"D:\Program Files<span class="token entity" title="\n">\n</span>odejs<span class="token entity" title="\n">\n</span>ode_global"</span>
+$ <span class="token function">npm</span> config <span class="token builtin class-name">set</span> cache <span class="token string">"D:\Program Files<span class="token entity" title="\n">\n</span>odejs<span class="token entity" title="\n">\n</span>ode_cache"</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p><strong>Configure environment variables</strong><br>warning: Two operations below are translated from Chinese. Related nouns may not accurate and you can’t find them in your system settings. If your system language is English, please search for English tutorial online. </p>
+<p>“Environment Variables” -&gt; “System Variables”: Create a new variable named “NODE_PATH” with a value of “D:\Program Files\nodejs\node_global\node_modules”</p>
+<p>“Environment Variables” -&gt; “User Variables”: Edit the Path in the user variable, and change the path of the corresponding npm (“C:\Users\username\AppData\Roaming\npm”) to: “D:\Program Files\ nodejs\node_global”</p>
+<p>For Chinese readers, this is the reference tutorial — <a target="_blank" rel="noopener" href="https://www.cnblogs.com/matanzhang/p/11441693.html">Nodejs中文配置教程</a>.</p>
+<h3 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h3><p>After preparation, choose a suitable address in your drive and create a new folder to place your blog document. In this directory, right click and Git Bash Here. Input <code>npm i hexo-cli -g</code> and enter. Hexo will be installed. Here, I met errors:</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">Error: EPERM: operation not permitted <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>I run Git Bash as administrator and solve the error.</p>
+<p>If you successfully install hexo, input <code>hexo -v</code> to check.</p>
+<p>Input <code>hexo init</code> to initialize the website and input <code>npm install</code> to install necessary components.</p>
+<p>Then <code>hexo g</code> generate the website and <code>hexo s</code> generate a static website on local server. User your browser to access <a href="localhost:4000/">localhost:4000&#x2F;</a> and you will see your blog. Next click <code>Ctrl + C</code> to teminate local server.</p>
+<h3 id="Deploy-Website-to-Github"><a href="#Deploy-Website-to-Github" class="headerlink" title="Deploy Website to Github"></a>Deploy Website to Github</h3><p>Still open Git Bash and input:</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">git</span> config <span class="token parameter variable">--global</span> user.name <span class="token string">"your username"</span>
+$ <span class="token function">git</span> config <span class="token parameter variable">--global</span> user.email <span class="token string">"your register email"</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p>Note that ‘<strong>your username</strong>‘ is your Github username and ‘<strong>your register email</strong>‘ is your Github log-in email.</p>
+<p>Generate SSH Key:</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ ssh-keygen <span class="token parameter variable">-t</span> rsa <span class="token parameter variable">-C</span> <span class="token string">"your register email"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p>Open your Github and find <code>settings</code> below your profile. Click <code>SSH and GPG keys</code> and create a new SSH with arbitrary name.</p>
+<p>Input <code>cat ~/.ssh/id_rsa.pub </code> in Git Bash and copy the output. Paste on the page of ‘create new SSH’ and save. Finally, input <code>ssh -T git@github.com</code> in Git Bash. If it shows “Hi ‘your user name’!”, you succeed.</p>
+<p>Open <code>_config.yml</code> in your blog root directory, and modify the last row:</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">deploy:
+  type: <span class="token function">git</span>
+  repository: git@github.com:username/username.github.io
+  branch: main<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p>Now your blog is built and you can explore it by yourself!</p>
+<p>Last, this is a reference tutorial for hexo+github — <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/35668237">知乎：超详细hexo+github博客搭建小白教程</a>.</p>
 
                 
             </div>
@@ -854,7 +889,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">73</span>&nbsp;字
+                class="white-color">895</span>&nbsp;字
             
             
             
