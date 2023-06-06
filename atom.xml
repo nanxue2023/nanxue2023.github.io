@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Xue&#39;s Blog</title>
   
-  
+  <subtitle>Learning and Improving Together</subtitle>
   <link href="https://nanxue2023.github.io/atom.xml" rel="self"/>
   
   <link href="https://nanxue2023.github.io/"/>
