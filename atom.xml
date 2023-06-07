@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Xue&#39;s Blog</title>
-  
+  <icon>https://nanxue2023.github.io/icon.png</icon>
   <subtitle>Learning and Improving Together</subtitle>
   <link href="https://nanxue2023.github.io/atom.xml" rel="self"/>
   
