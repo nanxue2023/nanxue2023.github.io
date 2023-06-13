@@ -6,7 +6,7 @@
   <link href="https://nanxue2023.github.io/atom.xml" rel="self"/>
   
   <link href="https://nanxue2023.github.io/"/>
-  <updated>2023-06-07T02:34:30.297Z</updated>
+  <updated>2023-06-13T07:20:31.176Z</updated>
   <id>https://nanxue2023.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>commfunc</title>
+    <link href="https://nanxue2023.github.io/2023/06/08/commfunc/commfunc/"/>
+    <id>https://nanxue2023.github.io/2023/06/08/commfunc/commfunc/</id>
+    <published>2023-06-08T06:15:40.000Z</published>
+    <updated>2023-06-13T07:20:31.176Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;How-to-add-comment-function-in-your-blog&quot;&gt;&lt;a href=&quot;#How-to-add-comment-function-in-your-blog&quot; class=&quot;headerlink&quot; title=&quot;How to add</summary>
+        
+      
+    
+    
+    
+    <category term="blog" scheme="https://nanxue2023.github.io/categories/blog/"/>
+    
+    
+    <category term="blog" scheme="https://nanxue2023.github.io/tags/blog/"/>
+    
+  </entry>
   
   <entry>
     <title>How to Read Paper (Learn from Mu Li)</title>
